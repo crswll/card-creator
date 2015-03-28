@@ -8,6 +8,9 @@ new Vue({
     teams: require('../data/teams.json'),
     nicknames: require('../data/nick-names.json'),
     positions: require('../data/positions.json'),
+    stories: require('../data/stories.json'),
+    stats: require('../data/stats.json'),
+    photos: require('../data/photos.json'),
     bats: ['Left', 'Right', 'Switch']
   },
   components: {
@@ -16,6 +19,9 @@ new Vue({
   filters: {
     fixed: function (n, d) {
       return n.toFixed(d);
+    },
+    round: function (n) {
+      return Math.round(n);
     }
   }
 });

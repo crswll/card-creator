@@ -8,72 +8,63 @@ module.exports = {
   template: require('./template.html'),
 
   data: function () {
-    return {
-      G: Math.floor(Math.random() * 250),
-      TOTAL: Math.floo
-    }
+    return {};
   },
 
   methods: {
     random: function (min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-  },
-  computed: {
-    nickname: function () {
+    },
+    getNickname: function () {
       var nicknames = this.$root.nicknames;
       return _.sample(nicknames, 2).join(' ');
     },
-
-    team: function () {
-      var teams = this.$root.teams;
-      return _.sample(teams);
-    },
-
-    position: function () {
+    getPosition: function () {
       var positions = this.$root.positions;
       return _.sample(positions);
     },
-
-    bats: function () {
+    getTeam: function () {
+      var teams = this.$root.teams;
+      return _.sample(teams);
+    },
+    getBats: function () {
       var bats = this.$root.bats;
       return _.sample(bats);
     },
-
-    number: function () {
-      return this.random(1, 99);
+    getPhoto: function () {
+      var images = this.$root.photos;
+      return 'src/images/' + _.sample(images);
     },
-
-    AB: function () {
-      return this.random(this.G, this.G * 1.5);
+    getStory: function () {
+      var stories = this.$root.stories;
+      return _.sample(stories)
+        .replace(/NAME/g, this.nickname)
+        .replace(/POSITION/g, this.position)
+        .replace(/TEAM/g, this.team);
     },
-
-    HITS: function () {
-      return randomSum(4, this.random(10, this.AB));
-    },
-
-    H: function () {
-      return this.HITS[0];
-    },
-
-    B2: function () {
-      return this.HITS[1];
-    },
-
-    B3: function () {
-      return this.HITS[2];
-    },
-
-    HR: function () {
-      return this.HITS[3];
-    },
-
-    RBI: function () { 
-      return this.random(0, 10000);
-    },
-
-    AVG: function () {
-      return this.H / this.AB;
+    getStats: function () {
+      // G, AB, R, H, 2B, 3B, HR, RBI, BB, SO, SB, CS, AVG, OBP, SLG, OPS
+      var stats = _.sample(this.$root.stats);
+      this.G = stats[0];
+      this.AB = stats[1];
+      this.R = stats[2];
+      this.H = stats[3];
+      this.B2 = stats[4];
+      this.B3 = stats[5];
+      this.HR = stats[6];
+      this.RBI = stats[7];
+      this.AVG = stats[12];
     }
+  },
+
+  created: function () {
+    this.nickname = this.getNickname();
+    this.position = this.getPosition();
+    this.team = this.getTeam();
+    this.bats = this.getBats();
+    this.story = this.getStory();
+    this.number = this.random(1, 99);
+    this.photo = this.getPhoto();
+    this.getStats();
   }
 }
