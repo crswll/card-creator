@@ -5,18 +5,17 @@
   margin: 0 auto 3em;
   max-width: em(1000);
   position: relative;
+}
 
-  &:after {
-    @include position(absolute, 0 null 0 0);
-    background-image: url("../src/images/brett-2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    content: "";
-    display: block;
-    width: 45%;
-    z-index: 0;
-  }
+.card--image {
+  @include position(absolute, 0 null 0 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  display: block;
+  width: 45%;
+  z-index: 0;
 }
 
 .card-info {
@@ -75,14 +74,15 @@
 .card--number {
   @include position(absolute, null null -22px -22px);
   @include size(5rem);
-  display: inline-block;
-  z-index: 1;
   background-color: $mean-magenta;
   border-radius: 50%;
-  text-align: center;
+  border: 3px solid darken($mean-magenta, 10%);
+  color: $light-tan;
+  display: inline-block;
   font-family: $heading-font-family;
   font-size: 36px;
-  color: $light-tan;
+  text-align: center;
+  z-index: 1;
 
   h3 {
     line-height: 5rem;

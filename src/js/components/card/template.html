@@ -1,4 +1,5 @@
-<div class="card" v-style="background-image: 'url(' + photo + ')'">
+<div class="card">
+  <div class="card--image" v-style="background-image: 'url(' + photo + ')'"></div>
   <div class="card-info">
     <h1 class="card--nickname">{{ nickname }}</h1>
     <h2 class="card--team">{{ team }}</h2>
@@ -7,6 +8,7 @@
       <h3 class="card--position">{{ position }}</h3>
       <h3 class="card--bats">{{ bats }}</h3>
     </div>
+
     <div class="card--bio-info">
       <h4>Bio</h4>
       <p>{{ story }}</p>
