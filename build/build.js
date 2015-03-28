@@ -1,4 +1,4 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/bill/sites/card-creator/node_modules/lodash/index.js":[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/kyle/Development/card-creator/node_modules/lodash/index.js":[function(require,module,exports){
 (function (global){
 /**
  * @license
@@ -11805,7 +11805,7 @@
 }.call(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/Users/bill/sites/card-creator/node_modules/vue/src/api/child.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/node_modules/vue/src/api/child.js":[function(require,module,exports){
 var _ = require('../util')
 
 /**
@@ -11853,7 +11853,7 @@ exports.$addChild = function (opts, BaseCtor) {
   this._children.push(child)
   return child
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/api/data.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/api/data.js":[function(require,module,exports){
 var _ = require('../util')
 var Watcher = require('../watcher')
 var Path = require('../parsers/path')
@@ -12018,7 +12018,7 @@ exports.$log = function (path) {
   }
   console.log(data)
 }
-},{"../parsers/directive":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/directive.js","../parsers/expression":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/expression.js","../parsers/path":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/path.js","../parsers/text":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/text.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","../watcher":"/Users/bill/sites/card-creator/node_modules/vue/src/watcher.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/api/dom.js":[function(require,module,exports){
+},{"../parsers/directive":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/directive.js","../parsers/expression":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/expression.js","../parsers/path":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/path.js","../parsers/text":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/text.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","../watcher":"/Users/kyle/Development/card-creator/node_modules/vue/src/watcher.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/api/dom.js":[function(require,module,exports){
 var _ = require('../util')
 var transition = require('../transition')
 
@@ -12230,7 +12230,7 @@ function remove (el, vm, cb) {
   _.remove(el)
   if (cb) cb()
 }
-},{"../transition":"/Users/bill/sites/card-creator/node_modules/vue/src/transition/index.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/api/events.js":[function(require,module,exports){
+},{"../transition":"/Users/kyle/Development/card-creator/node_modules/vue/src/transition/index.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/api/events.js":[function(require,module,exports){
 var _ = require('../util')
 
 /**
@@ -12405,7 +12405,7 @@ function modifyListenerCount (vm, event, count) {
     parent = parent.$parent
   }
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/api/global.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/api/global.js":[function(require,module,exports){
 var _ = require('../util')
 var mergeOptions = require('../util/merge-option')
 
@@ -12552,7 +12552,7 @@ function createAssetRegisters (Constructor) {
 }
 
 createAssetRegisters(exports)
-},{"../compiler/compile":"/Users/bill/sites/card-creator/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/Users/bill/sites/card-creator/node_modules/vue/src/compiler/transclude.js","../config":"/Users/bill/sites/card-creator/node_modules/vue/src/config.js","../parsers/directive":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/directive.js","../parsers/expression":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/expression.js","../parsers/path":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/path.js","../parsers/template":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/template.js","../parsers/text":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/text.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","../util/merge-option":"/Users/bill/sites/card-creator/node_modules/vue/src/util/merge-option.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/api/lifecycle.js":[function(require,module,exports){
+},{"../compiler/compile":"/Users/kyle/Development/card-creator/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/Users/kyle/Development/card-creator/node_modules/vue/src/compiler/transclude.js","../config":"/Users/kyle/Development/card-creator/node_modules/vue/src/config.js","../parsers/directive":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/directive.js","../parsers/expression":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/expression.js","../parsers/path":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/path.js","../parsers/template":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/template.js","../parsers/text":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/text.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","../util/merge-option":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/merge-option.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/api/lifecycle.js":[function(require,module,exports){
 var _ = require('../util')
 var compile = require('../compiler/compile')
 
@@ -12625,7 +12625,7 @@ exports.$destroy = function (remove, deferCleanup) {
 exports.$compile = function (el) {
   return compile(el, this.$options, true)(this, el)
 }
-},{"../compiler/compile":"/Users/bill/sites/card-creator/node_modules/vue/src/compiler/compile.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/batcher.js":[function(require,module,exports){
+},{"../compiler/compile":"/Users/kyle/Development/card-creator/node_modules/vue/src/compiler/compile.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/batcher.js":[function(require,module,exports){
 var _ = require('./util')
 var MAX_UPDATE_COUNT = 10
 
@@ -12720,7 +12720,7 @@ exports.push = function (job) {
     }
   }
 }
-},{"./util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/cache.js":[function(require,module,exports){
+},{"./util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/cache.js":[function(require,module,exports){
 /**
  * A doubly linked list-based Least Recently Used (LRU)
  * cache. Will keep most recently used items while
@@ -12833,7 +12833,7 @@ p.get = function (key, returnEntry) {
 }
 
 module.exports = Cache
-},{}],"/Users/bill/sites/card-creator/node_modules/vue/src/compiler/compile.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/node_modules/vue/src/compiler/compile.js":[function(require,module,exports){
 var _ = require('../util')
 var config = require('../config')
 var textParser = require('../parsers/text')
@@ -13398,7 +13398,7 @@ function directiveComparator (a, b) {
   b = b.def.priority || 0
   return a > b ? 1 : -1
 }
-},{"../config":"/Users/bill/sites/card-creator/node_modules/vue/src/config.js","../parsers/directive":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/directive.js","../parsers/template":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/template.js","../parsers/text":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/text.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/compiler/transclude.js":[function(require,module,exports){
+},{"../config":"/Users/kyle/Development/card-creator/node_modules/vue/src/config.js","../parsers/directive":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/directive.js","../parsers/template":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/template.js","../parsers/text":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/text.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/compiler/transclude.js":[function(require,module,exports){
 var _ = require('../util')
 var templateParser = require('../parsers/template')
 
@@ -13548,7 +13548,7 @@ function insertContentAt (outlet, contents) {
   }
   parent.removeChild(outlet)
 }
-},{"../parsers/template":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/template.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/config.js":[function(require,module,exports){
+},{"../parsers/template":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/template.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/config.js":[function(require,module,exports){
 module.exports = {
 
   /**
@@ -13635,7 +13635,7 @@ Object.defineProperty(module.exports, 'delimiters', {
     this._delimitersChanged = true
   }
 })
-},{}],"/Users/bill/sites/card-creator/node_modules/vue/src/directive.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directive.js":[function(require,module,exports){
 var _ = require('./util')
 var config = require('./config')
 var Watcher = require('./watcher')
@@ -13858,7 +13858,7 @@ p.set = function (value, lock) {
 }
 
 module.exports = Directive
-},{"./config":"/Users/bill/sites/card-creator/node_modules/vue/src/config.js","./parsers/expression":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/expression.js","./parsers/text":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/text.js","./util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","./watcher":"/Users/bill/sites/card-creator/node_modules/vue/src/watcher.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/attr.js":[function(require,module,exports){
+},{"./config":"/Users/kyle/Development/card-creator/node_modules/vue/src/config.js","./parsers/expression":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/expression.js","./parsers/text":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/text.js","./util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","./watcher":"/Users/kyle/Development/card-creator/node_modules/vue/src/watcher.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/attr.js":[function(require,module,exports){
 // xlink
 var xlinkNS = 'http://www.w3.org/1999/xlink'
 var xlinkRE = /^xlink:/
@@ -13891,7 +13891,7 @@ function xlinkHandler (value) {
     this.el.removeAttributeNS(xlinkNS, 'href')
   }
 }
-},{}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/class.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/class.js":[function(require,module,exports){
 var _ = require('../util')
 var addClass = _.addClass
 var removeClass = _.removeClass
@@ -13910,7 +13910,7 @@ module.exports = function (value) {
     }
   }
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/cloak.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/cloak.js":[function(require,module,exports){
 var config = require('../config')
 
 module.exports = {
@@ -13923,7 +13923,7 @@ module.exports = {
   }
 
 }
-},{"../config":"/Users/bill/sites/card-creator/node_modules/vue/src/config.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/component.js":[function(require,module,exports){
+},{"../config":"/Users/kyle/Development/card-creator/node_modules/vue/src/config.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/component.js":[function(require,module,exports){
 var _ = require('../util')
 var templateParser = require('../parsers/template')
 
@@ -14147,7 +14147,7 @@ module.exports = {
   }
 
 }
-},{"../parsers/template":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/template.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/el.js":[function(require,module,exports){
+},{"../parsers/template":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/template.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/el.js":[function(require,module,exports){
 module.exports = {
 
   isLiteral: true,
@@ -14161,7 +14161,7 @@ module.exports = {
   }
   
 }
-},{}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/events.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/events.js":[function(require,module,exports){
 var _ = require('../util')
 
 module.exports = { 
@@ -14189,7 +14189,7 @@ module.exports = {
   // so no need for unbind here.
 
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/html.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/html.js":[function(require,module,exports){
 var _ = require('../util')
 var templateParser = require('../parsers/template')
 
@@ -14228,7 +14228,7 @@ module.exports = {
   }
 
 }
-},{"../parsers/template":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/template.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/if.js":[function(require,module,exports){
+},{"../parsers/template":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/template.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/if.js":[function(require,module,exports){
 var _ = require('../util')
 var compile = require('../compiler/compile')
 var templateParser = require('../parsers/template')
@@ -14312,7 +14312,7 @@ module.exports = {
   }
 
 }
-},{"../compiler/compile":"/Users/bill/sites/card-creator/node_modules/vue/src/compiler/compile.js","../parsers/template":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/template.js","../transition":"/Users/bill/sites/card-creator/node_modules/vue/src/transition/index.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/index.js":[function(require,module,exports){
+},{"../compiler/compile":"/Users/kyle/Development/card-creator/node_modules/vue/src/compiler/compile.js","../parsers/template":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/template.js","../transition":"/Users/kyle/Development/card-creator/node_modules/vue/src/transition/index.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/index.js":[function(require,module,exports){
 // manipulation directives
 exports.text       = require('./text')
 exports.html       = require('./html')
@@ -14338,7 +14338,7 @@ exports['if']      = require('./if')
 // child vm communication directives
 exports['with']    = require('./with')
 exports.events     = require('./events')
-},{"./attr":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/attr.js","./class":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/class.js","./cloak":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/cloak.js","./component":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/component.js","./el":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/el.js","./events":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/events.js","./html":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/html.js","./if":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/if.js","./model":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/model/index.js","./on":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/on.js","./partial":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/partial.js","./ref":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/ref.js","./repeat":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/repeat.js","./show":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/show.js","./style":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/style.js","./text":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/text.js","./transition":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/transition.js","./with":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/with.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/model/checkbox.js":[function(require,module,exports){
+},{"./attr":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/attr.js","./class":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/class.js","./cloak":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/cloak.js","./component":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/component.js","./el":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/el.js","./events":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/events.js","./html":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/html.js","./if":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/if.js","./model":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/model/index.js","./on":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/on.js","./partial":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/partial.js","./ref":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/ref.js","./repeat":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/repeat.js","./show":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/show.js","./style":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/style.js","./text":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/text.js","./transition":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/transition.js","./with":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/with.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/model/checkbox.js":[function(require,module,exports){
 var _ = require('../../util')
 
 module.exports = {
@@ -14364,7 +14364,7 @@ module.exports = {
   }
 
 }
-},{"../../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/model/default.js":[function(require,module,exports){
+},{"../../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/model/default.js":[function(require,module,exports){
 var _ = require('../../util')
 
 module.exports = {
@@ -14488,7 +14488,7 @@ module.exports = {
   }
 
 }
-},{"../../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/model/index.js":[function(require,module,exports){
+},{"../../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/model/index.js":[function(require,module,exports){
 var _ = require('../../util')
 
 var handlers = {
@@ -14545,7 +14545,7 @@ module.exports = {
   }
 
 }
-},{"../../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","./checkbox":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/model/checkbox.js","./default":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/model/default.js","./radio":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/model/radio.js","./select":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/model/select.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/model/radio.js":[function(require,module,exports){
+},{"../../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","./checkbox":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/model/checkbox.js","./default":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/model/default.js","./radio":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/model/radio.js","./select":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/model/select.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/model/radio.js":[function(require,module,exports){
 var _ = require('../../util')
 
 module.exports = {
@@ -14572,7 +14572,7 @@ module.exports = {
   }
 
 }
-},{"../../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/model/select.js":[function(require,module,exports){
+},{"../../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/model/select.js":[function(require,module,exports){
 var _ = require('../../util')
 var Watcher = require('../../watcher')
 
@@ -14746,7 +14746,7 @@ function indexOf (arr, val) {
   }
   return -1
 }
-},{"../../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","../../watcher":"/Users/bill/sites/card-creator/node_modules/vue/src/watcher.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/on.js":[function(require,module,exports){
+},{"../../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","../../watcher":"/Users/kyle/Development/card-creator/node_modules/vue/src/watcher.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/on.js":[function(require,module,exports){
 var _ = require('../util')
 
 module.exports = {
@@ -14806,7 +14806,7 @@ module.exports = {
     _.off(this.el, 'load', this.iframeBind)
   }
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/partial.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/partial.js":[function(require,module,exports){
 var _ = require('../util')
 var templateParser = require('../parsers/template')
 var vIf = require('./if')
@@ -14851,7 +14851,7 @@ module.exports = {
   }
 
 }
-},{"../parsers/template":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/template.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","./if":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/if.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/ref.js":[function(require,module,exports){
+},{"../parsers/template":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/template.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","./if":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/if.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/ref.js":[function(require,module,exports){
 var _ = require('../util')
 
 module.exports = {
@@ -14875,7 +14875,7 @@ module.exports = {
   }
   
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/repeat.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/repeat.js":[function(require,module,exports){
 var _ = require('../util')
 var isObject = _.isObject
 var isPlainObject = _.isPlainObject
@@ -15380,7 +15380,7 @@ function range (n) {
   }
   return ret
 }
-},{"../compiler/compile":"/Users/bill/sites/card-creator/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/Users/bill/sites/card-creator/node_modules/vue/src/compiler/transclude.js","../parsers/expression":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/expression.js","../parsers/template":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/template.js","../parsers/text":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/text.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","../util/merge-option":"/Users/bill/sites/card-creator/node_modules/vue/src/util/merge-option.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/show.js":[function(require,module,exports){
+},{"../compiler/compile":"/Users/kyle/Development/card-creator/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/Users/kyle/Development/card-creator/node_modules/vue/src/compiler/transclude.js","../parsers/expression":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/expression.js","../parsers/template":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/template.js","../parsers/text":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/text.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","../util/merge-option":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/merge-option.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/show.js":[function(require,module,exports){
 var transition = require('../transition')
 
 module.exports = function (value) {
@@ -15389,7 +15389,7 @@ module.exports = function (value) {
     el.style.display = value ? '' : 'none'
   }, this.vm)
 }
-},{"../transition":"/Users/bill/sites/card-creator/node_modules/vue/src/transition/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/style.js":[function(require,module,exports){
+},{"../transition":"/Users/kyle/Development/card-creator/node_modules/vue/src/transition/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/style.js":[function(require,module,exports){
 var _ = require('../util')
 var prefixes = ['-webkit-', '-moz-', '-ms-']
 var camelPrefixes = ['Webkit', 'Moz', 'ms']
@@ -15490,7 +15490,7 @@ function prefix (prop) {
     }
   }
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/text.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/text.js":[function(require,module,exports){
 var _ = require('../util')
 
 module.exports = {
@@ -15506,7 +15506,7 @@ module.exports = {
   }
   
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/transition.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/transition.js":[function(require,module,exports){
 module.exports = {
 
   priority: 1000,
@@ -15521,7 +15521,7 @@ module.exports = {
   }
 
 }
-},{}],"/Users/bill/sites/card-creator/node_modules/vue/src/directives/with.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/with.js":[function(require,module,exports){
 var _ = require('../util')
 var Watcher = require('../watcher')
 
@@ -15595,7 +15595,7 @@ module.exports = {
   }
 
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","../watcher":"/Users/bill/sites/card-creator/node_modules/vue/src/watcher.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/filters/array-filters.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","../watcher":"/Users/kyle/Development/card-creator/node_modules/vue/src/watcher.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/filters/array-filters.js":[function(require,module,exports){
 var _ = require('../util')
 var Path = require('../parsers/path')
 
@@ -15683,7 +15683,7 @@ function contains (val, search) {
     return val.toString().toLowerCase().indexOf(search) > -1
   }
 }
-},{"../parsers/path":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/path.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/filters/index.js":[function(require,module,exports){
+},{"../parsers/path":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/path.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/filters/index.js":[function(require,module,exports){
 var _ = require('../util')
 
 /**
@@ -15819,7 +15819,7 @@ exports.key.keyCodes = keyCodes
  */
 
 _.extend(exports, require('./array-filters'))
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","./array-filters":"/Users/bill/sites/card-creator/node_modules/vue/src/filters/array-filters.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/instance/compile.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","./array-filters":"/Users/kyle/Development/card-creator/node_modules/vue/src/filters/array-filters.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/instance/compile.js":[function(require,module,exports){
 var _ = require('../util')
 var Directive = require('../directive')
 var compile = require('../compiler/compile')
@@ -16008,7 +16008,7 @@ exports._cleanup = function () {
   // turn off all instance listeners.
   this.$off()
 }
-},{"../compiler/compile":"/Users/bill/sites/card-creator/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/Users/bill/sites/card-creator/node_modules/vue/src/compiler/transclude.js","../directive":"/Users/bill/sites/card-creator/node_modules/vue/src/directive.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/instance/events.js":[function(require,module,exports){
+},{"../compiler/compile":"/Users/kyle/Development/card-creator/node_modules/vue/src/compiler/compile.js","../compiler/transclude":"/Users/kyle/Development/card-creator/node_modules/vue/src/compiler/transclude.js","../directive":"/Users/kyle/Development/card-creator/node_modules/vue/src/directive.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/instance/events.js":[function(require,module,exports){
 var _ = require('../util')
 var inDoc = _.inDoc
 
@@ -16147,7 +16147,7 @@ exports._callHook = function (hook) {
   }
   this.$emit('hook:' + hook)
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/instance/init.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/instance/init.js":[function(require,module,exports){
 var mergeOptions = require('../util/merge-option')
 
 /**
@@ -16225,7 +16225,7 @@ exports._init = function (options) {
     this.$mount(options.el)
   }
 }
-},{"../util/merge-option":"/Users/bill/sites/card-creator/node_modules/vue/src/util/merge-option.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/instance/scope.js":[function(require,module,exports){
+},{"../util/merge-option":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/merge-option.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/instance/scope.js":[function(require,module,exports){
 var _ = require('../util')
 var Observer = require('../observer')
 var Dep = require('../observer/dep')
@@ -16440,7 +16440,7 @@ exports._defineMeta = function (key, value) {
     }
   })
 }
-},{"../observer":"/Users/bill/sites/card-creator/node_modules/vue/src/observer/index.js","../observer/dep":"/Users/bill/sites/card-creator/node_modules/vue/src/observer/dep.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/observer/array.js":[function(require,module,exports){
+},{"../observer":"/Users/kyle/Development/card-creator/node_modules/vue/src/observer/index.js","../observer/dep":"/Users/kyle/Development/card-creator/node_modules/vue/src/observer/dep.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/observer/array.js":[function(require,module,exports){
 var _ = require('../util')
 var arrayProto = Array.prototype
 var arrayMethods = Object.create(arrayProto)
@@ -16531,7 +16531,7 @@ _.define(
 )
 
 module.exports = arrayMethods
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/observer/dep.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/observer/dep.js":[function(require,module,exports){
 var uid = 0
 
 /**
@@ -16582,7 +16582,7 @@ p.notify = function () {
 }
 
 module.exports = Dep
-},{}],"/Users/bill/sites/card-creator/node_modules/vue/src/observer/index.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/node_modules/vue/src/observer/index.js":[function(require,module,exports){
 var _ = require('../util')
 var config = require('../config')
 var Dep = require('./dep')
@@ -16819,7 +16819,7 @@ p.removeVm = function (vm) {
 
 module.exports = Observer
 
-},{"../config":"/Users/bill/sites/card-creator/node_modules/vue/src/config.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","./array":"/Users/bill/sites/card-creator/node_modules/vue/src/observer/array.js","./dep":"/Users/bill/sites/card-creator/node_modules/vue/src/observer/dep.js","./object":"/Users/bill/sites/card-creator/node_modules/vue/src/observer/object.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/observer/object.js":[function(require,module,exports){
+},{"../config":"/Users/kyle/Development/card-creator/node_modules/vue/src/config.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","./array":"/Users/kyle/Development/card-creator/node_modules/vue/src/observer/array.js","./dep":"/Users/kyle/Development/card-creator/node_modules/vue/src/observer/dep.js","./object":"/Users/kyle/Development/card-creator/node_modules/vue/src/observer/object.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/observer/object.js":[function(require,module,exports){
 var _ = require('../util')
 var objProto = Object.prototype
 
@@ -16886,7 +16886,7 @@ _.define(
     }
   }
 )
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/directive.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/directive.js":[function(require,module,exports){
 var _ = require('../util')
 var Cache = require('../cache')
 var cache = new Cache(1000)
@@ -17046,7 +17046,7 @@ exports.parse = function (s) {
   cache.put(s, dirs)
   return dirs
 }
-},{"../cache":"/Users/bill/sites/card-creator/node_modules/vue/src/cache.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/expression.js":[function(require,module,exports){
+},{"../cache":"/Users/kyle/Development/card-creator/node_modules/vue/src/cache.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/expression.js":[function(require,module,exports){
 var _ = require('../util')
 var Path = require('./path')
 var Cache = require('../cache')
@@ -17274,7 +17274,7 @@ exports.parse = function (exp, needSet) {
 
 // Export the pathRegex for external use
 exports.pathTestRE = pathTestRE
-},{"../cache":"/Users/bill/sites/card-creator/node_modules/vue/src/cache.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","./path":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/path.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/path.js":[function(require,module,exports){
+},{"../cache":"/Users/kyle/Development/card-creator/node_modules/vue/src/cache.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","./path":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/path.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/path.js":[function(require,module,exports){
 var _ = require('../util')
 var Cache = require('../cache')
 var pathCache = new Cache(1000)
@@ -17572,7 +17572,7 @@ exports.set = function (obj, path, val) {
   }
   return true
 }
-},{"../cache":"/Users/bill/sites/card-creator/node_modules/vue/src/cache.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/template.js":[function(require,module,exports){
+},{"../cache":"/Users/kyle/Development/card-creator/node_modules/vue/src/cache.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/template.js":[function(require,module,exports){
 var _ = require('../util')
 var Cache = require('../cache')
 var templateCache = new Cache(1000)
@@ -17823,7 +17823,7 @@ exports.parse = function (template, clone, noSelector) {
     ? exports.clone(frag)
     : frag
 }
-},{"../cache":"/Users/bill/sites/card-creator/node_modules/vue/src/cache.js","../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/text.js":[function(require,module,exports){
+},{"../cache":"/Users/kyle/Development/card-creator/node_modules/vue/src/cache.js","../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/text.js":[function(require,module,exports){
 var Cache = require('../cache')
 var config = require('../config')
 var dirParser = require('./directive')
@@ -18002,7 +18002,7 @@ function inlineFilters (exp) {
     }
   }
 }
-},{"../cache":"/Users/bill/sites/card-creator/node_modules/vue/src/cache.js","../config":"/Users/bill/sites/card-creator/node_modules/vue/src/config.js","./directive":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/directive.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/transition/css.js":[function(require,module,exports){
+},{"../cache":"/Users/kyle/Development/card-creator/node_modules/vue/src/cache.js","../config":"/Users/kyle/Development/card-creator/node_modules/vue/src/config.js","./directive":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/directive.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/transition/css.js":[function(require,module,exports){
 var _ = require('../util')
 var addClass = _.addClass
 var removeClass = _.removeClass
@@ -18192,7 +18192,7 @@ module.exports = function (el, direction, op, data, cb) {
     push(el, direction, op, leaveClass, cb)
   }
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/transition/index.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/transition/index.js":[function(require,module,exports){
 var _ = require('../util')
 var applyCSSTransition = require('./css')
 var applyJSTransition = require('./js')
@@ -18344,7 +18344,7 @@ var apply = exports.apply = function (el, direction, op, vm, cb) {
     if (cb) cb()
   }
 }
-},{"../util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js","./css":"/Users/bill/sites/card-creator/node_modules/vue/src/transition/css.js","./js":"/Users/bill/sites/card-creator/node_modules/vue/src/transition/js.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/transition/js.js":[function(require,module,exports){
+},{"../util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js","./css":"/Users/kyle/Development/card-creator/node_modules/vue/src/transition/css.js","./js":"/Users/kyle/Development/card-creator/node_modules/vue/src/transition/js.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/transition/js.js":[function(require,module,exports){
 /**
  * Apply JavaScript enter/leave functions.
  *
@@ -18388,7 +18388,7 @@ module.exports = function (el, direction, op, data, def, vm, cb) {
     }
   }
 }
-},{}],"/Users/bill/sites/card-creator/node_modules/vue/src/util/debug.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/node_modules/vue/src/util/debug.js":[function(require,module,exports){
 var config = require('../config')
 
 /**
@@ -18449,7 +18449,7 @@ function enableDebug () {
     }
   }
 }
-},{"../config":"/Users/bill/sites/card-creator/node_modules/vue/src/config.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/util/dom.js":[function(require,module,exports){
+},{"../config":"/Users/kyle/Development/card-creator/node_modules/vue/src/config.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/util/dom.js":[function(require,module,exports){
 var config = require('../config')
 
 /**
@@ -18647,7 +18647,7 @@ exports.extractContent = function (el) {
   }
   return rawContent
 }
-},{"../config":"/Users/bill/sites/card-creator/node_modules/vue/src/config.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/util/env.js":[function(require,module,exports){
+},{"../config":"/Users/kyle/Development/card-creator/node_modules/vue/src/config.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/util/env.js":[function(require,module,exports){
 /**
  * Can we use __proto__?
  *
@@ -18754,7 +18754,7 @@ if (inBrowser && !exports.isIE9) {
     ? 'webkitAnimationEnd'
     : 'animationend'
 }
-},{}],"/Users/bill/sites/card-creator/node_modules/vue/src/util/filter.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/node_modules/vue/src/util/filter.js":[function(require,module,exports){
 var _ = require('./debug')
 
 /**
@@ -18827,7 +18827,7 @@ exports.applyFilters = function (value, filters, vm, oldVal) {
   }
   return value
 }
-},{"./debug":"/Users/bill/sites/card-creator/node_modules/vue/src/util/debug.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js":[function(require,module,exports){
+},{"./debug":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/debug.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js":[function(require,module,exports){
 var lang   = require('./lang')
 var extend = lang.extend
 
@@ -18836,7 +18836,7 @@ extend(exports, require('./env'))
 extend(exports, require('./dom'))
 extend(exports, require('./filter'))
 extend(exports, require('./debug'))
-},{"./debug":"/Users/bill/sites/card-creator/node_modules/vue/src/util/debug.js","./dom":"/Users/bill/sites/card-creator/node_modules/vue/src/util/dom.js","./env":"/Users/bill/sites/card-creator/node_modules/vue/src/util/env.js","./filter":"/Users/bill/sites/card-creator/node_modules/vue/src/util/filter.js","./lang":"/Users/bill/sites/card-creator/node_modules/vue/src/util/lang.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/util/lang.js":[function(require,module,exports){
+},{"./debug":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/debug.js","./dom":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/dom.js","./env":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/env.js","./filter":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/filter.js","./lang":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/lang.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/util/lang.js":[function(require,module,exports){
 /**
  * Check is a string starts with $ or _
  *
@@ -19012,7 +19012,7 @@ exports.define = function (obj, key, val, enumerable) {
     configurable : true
   })
 }
-},{}],"/Users/bill/sites/card-creator/node_modules/vue/src/util/merge-option.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/node_modules/vue/src/util/merge-option.js":[function(require,module,exports){
 var _ = require('./index')
 var extend = _.extend
 
@@ -19271,7 +19271,7 @@ module.exports = function mergeOptions (parent, child, vm) {
   }
   return options
 }
-},{"./index":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/vue.js":[function(require,module,exports){
+},{"./index":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/vue.js":[function(require,module,exports){
 var _ = require('./util')
 var extend = _.extend
 
@@ -19356,7 +19356,7 @@ extend(p, require('./api/child'))
 extend(p, require('./api/lifecycle'))
 
 module.exports = _.Vue = Vue
-},{"./api/child":"/Users/bill/sites/card-creator/node_modules/vue/src/api/child.js","./api/data":"/Users/bill/sites/card-creator/node_modules/vue/src/api/data.js","./api/dom":"/Users/bill/sites/card-creator/node_modules/vue/src/api/dom.js","./api/events":"/Users/bill/sites/card-creator/node_modules/vue/src/api/events.js","./api/global":"/Users/bill/sites/card-creator/node_modules/vue/src/api/global.js","./api/lifecycle":"/Users/bill/sites/card-creator/node_modules/vue/src/api/lifecycle.js","./directives":"/Users/bill/sites/card-creator/node_modules/vue/src/directives/index.js","./filters":"/Users/bill/sites/card-creator/node_modules/vue/src/filters/index.js","./instance/compile":"/Users/bill/sites/card-creator/node_modules/vue/src/instance/compile.js","./instance/events":"/Users/bill/sites/card-creator/node_modules/vue/src/instance/events.js","./instance/init":"/Users/bill/sites/card-creator/node_modules/vue/src/instance/init.js","./instance/scope":"/Users/bill/sites/card-creator/node_modules/vue/src/instance/scope.js","./util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/node_modules/vue/src/watcher.js":[function(require,module,exports){
+},{"./api/child":"/Users/kyle/Development/card-creator/node_modules/vue/src/api/child.js","./api/data":"/Users/kyle/Development/card-creator/node_modules/vue/src/api/data.js","./api/dom":"/Users/kyle/Development/card-creator/node_modules/vue/src/api/dom.js","./api/events":"/Users/kyle/Development/card-creator/node_modules/vue/src/api/events.js","./api/global":"/Users/kyle/Development/card-creator/node_modules/vue/src/api/global.js","./api/lifecycle":"/Users/kyle/Development/card-creator/node_modules/vue/src/api/lifecycle.js","./directives":"/Users/kyle/Development/card-creator/node_modules/vue/src/directives/index.js","./filters":"/Users/kyle/Development/card-creator/node_modules/vue/src/filters/index.js","./instance/compile":"/Users/kyle/Development/card-creator/node_modules/vue/src/instance/compile.js","./instance/events":"/Users/kyle/Development/card-creator/node_modules/vue/src/instance/events.js","./instance/init":"/Users/kyle/Development/card-creator/node_modules/vue/src/instance/init.js","./instance/scope":"/Users/kyle/Development/card-creator/node_modules/vue/src/instance/scope.js","./util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/node_modules/vue/src/watcher.js":[function(require,module,exports){
 var _ = require('./util')
 var config = require('./config')
 var Observer = require('./observer')
@@ -19614,8 +19614,13 @@ function traverse (obj) {
 }
 
 module.exports = Watcher
+<<<<<<< HEAD
 },{"./batcher":"/Users/bill/sites/card-creator/node_modules/vue/src/batcher.js","./config":"/Users/bill/sites/card-creator/node_modules/vue/src/config.js","./observer":"/Users/bill/sites/card-creator/node_modules/vue/src/observer/index.js","./parsers/expression":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/expression.js","./util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/src/data/nick-names.json":[function(require,module,exports){
 module.exports=module.exports=module.exports=module.exports=module.exports=[
+=======
+},{"./batcher":"/Users/kyle/Development/card-creator/node_modules/vue/src/batcher.js","./config":"/Users/kyle/Development/card-creator/node_modules/vue/src/config.js","./observer":"/Users/kyle/Development/card-creator/node_modules/vue/src/observer/index.js","./parsers/expression":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/expression.js","./util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/src/data/nick-names.json":[function(require,module,exports){
+module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
+>>>>>>> Refine styles
   "(Vedie)",
   "3-Dog",
   "A J",
@@ -23197,8 +23202,13 @@ module.exports=module.exports=module.exports=module.exports=module.exports=[
   "Zorro",
   "Zurdo"
 ]
+<<<<<<< HEAD
 },{}],"/Users/bill/sites/card-creator/src/data/photos.json":[function(require,module,exports){
 module.exports=module.exports=module.exports=module.exports=module.exports=[
+=======
+},{}],"/Users/kyle/Development/card-creator/src/data/photos.json":[function(require,module,exports){
+module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
+>>>>>>> Refine styles
   "6a00d8341c9a9953ef013481193d2e970c.png",
   "61sy3MCuZAL._SL1048_.png",
   "81-Donruss-Frank-White.png",
@@ -23240,8 +23250,13 @@ module.exports=module.exports=module.exports=module.exports=module.exports=[
   "vintage-martin.png",
   "vintage-yount2.png"
 ]
+<<<<<<< HEAD
 },{}],"/Users/bill/sites/card-creator/src/data/positions.json":[function(require,module,exports){
 module.exports=module.exports=module.exports=module.exports=module.exports=[
+=======
+},{}],"/Users/kyle/Development/card-creator/src/data/positions.json":[function(require,module,exports){
+module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
+>>>>>>> Refine styles
   "Pitcher",
   "Catcher",
   "1st Baseman",
@@ -23252,8 +23267,13 @@ module.exports=module.exports=module.exports=module.exports=module.exports=[
   "Center Field",
   "Right Field"
 ]
+<<<<<<< HEAD
 },{}],"/Users/bill/sites/card-creator/src/data/stats.json":[function(require,module,exports){
 module.exports=module.exports=module.exports=module.exports=module.exports=[
+=======
+},{}],"/Users/kyle/Development/card-creator/src/data/stats.json":[function(require,module,exports){
+module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
+>>>>>>> Refine styles
   [18, 50, 7, 25, 8, 2, 0, 14, 5, 2, 1, 0, 0.5, 0.552, 0.74, 1.292],
   [18, 56, 17, 24, 5, 2, 2, 14, 3, 8, 3, 0, 0.429, 0.458, 0.696, 1.154],
   [24, 56, 13, 24, 7, 0, 4, 18, 11, 8, 1, 0, 0.429, 0.522, 0.768, 1.29],
@@ -23303,8 +23323,13 @@ module.exports=module.exports=module.exports=module.exports=module.exports=[
   [15, 39, 5, 6, 1, 0, 0, 1, 7, 6, 1, 0, 0.154, 0.283, 0.179, 0.462],
   [17, 44, 5, 3, 1, 0, 1, 2, 6, 14, 0, 0, 0.068, 0.192, 0.159, 0.351]
 ]
+<<<<<<< HEAD
 },{}],"/Users/bill/sites/card-creator/src/data/stories.json":[function(require,module,exports){
 module.exports=module.exports=module.exports=[
+=======
+},{}],"/Users/kyle/Development/card-creator/src/data/stories.json":[function(require,module,exports){
+module.exports=[
+>>>>>>> Refine styles
   "NAME missed a game when his protective cup slipped and pinched a testicle.",
   "POSITION NAME started a new workout regimen at home in Crockett, Texas, back in the mid-1980s. One drill included backwards running. He promptly stepped in a gopher hole and hurt his back.",
   "POSITION NAME missed time with the Orioles in 2002 because he scorched his face in a tanning bed and was ordered by doctors to avoid direct sunlight. Standing in the sun from February through September apparently didn't give him the glow he sought.",
@@ -23330,8 +23355,13 @@ module.exports=module.exports=module.exports=[
   "TEAM outfielder NAME fell out of bed and crashed into a glass table while having a nightmare that he was covered by spiders. To which even the most sympathetic manager would say, \"Yeah, sure you did.\"",
   "In 2011, NAME strained his hamstring while stretching to avoid, you know, straining his hamstring."
 ]
+<<<<<<< HEAD
 },{}],"/Users/bill/sites/card-creator/src/data/teams.json":[function(require,module,exports){
 module.exports=module.exports=module.exports=module.exports=module.exports=[
+=======
+},{}],"/Users/kyle/Development/card-creator/src/data/teams.json":[function(require,module,exports){
+module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
+>>>>>>> Refine styles
   "Arizona Diamondbacks",
   "Atlanta Braves",
   "Baltimore Orioles",
@@ -23363,9 +23393,9 @@ module.exports=module.exports=module.exports=module.exports=module.exports=[
   "Toronto Blue Jays",
   "Washington Nationals"
 ]
-},{}],"/Users/bill/sites/card-creator/src/js/app.html":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/src/js/app.html":[function(require,module,exports){
 module.exports = '<header class="site-header">\n  <h1>The Most Serious Baseball Card Generator</h1>\n  <h2>By <a href="http://twitter.com/crswll">Bill</a> and <a\n      href="http://twitter.com/kylefiedler">Kyle</a> during <a\n      href="http://baseballhackday.com">Baseball Hack Day</a> 2015</h2>\n  <button v-on="click: reload">Gimme a New Player</button>\n</header>\n\n<div v-component="card"></div>\n\n';
-},{}],"/Users/bill/sites/card-creator/src/js/components/card/index.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/src/js/components/card/index.js":[function(require,module,exports){
 var _ = require('lodash');
 var randomSum = require('./random-sum.js');
 
@@ -23436,7 +23466,7 @@ module.exports = {
     this.getStats();
   }
 }
-},{"./random-sum.js":"/Users/bill/sites/card-creator/src/js/components/card/random-sum.js","./template.html":"/Users/bill/sites/card-creator/src/js/components/card/template.html","lodash":"/Users/bill/sites/card-creator/node_modules/lodash/index.js"}],"/Users/bill/sites/card-creator/src/js/components/card/random-sum.js":[function(require,module,exports){
+},{"./random-sum.js":"/Users/kyle/Development/card-creator/src/js/components/card/random-sum.js","./template.html":"/Users/kyle/Development/card-creator/src/js/components/card/template.html","lodash":"/Users/kyle/Development/card-creator/node_modules/lodash/index.js"}],"/Users/kyle/Development/card-creator/src/js/components/card/random-sum.js":[function(require,module,exports){
 module.exports = function(n, t) {
 
   var max = n * (n + 1) / 2;
@@ -23468,9 +23498,9 @@ module.exports = function(n, t) {
 
   return list;
 }
-},{}],"/Users/bill/sites/card-creator/src/js/components/card/template.html":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/src/js/components/card/template.html":[function(require,module,exports){
 module.exports = '<div class="card">\n  <div class="card--image" v-style="background-image: \'url(\' + photo + \')\'"></div>\n  <div class="card-info">\n    <h1 class="card--nickname">{{ nickname }}</h1>\n    <h2 class="card--team">{{ team }}</h2>\n\n    <div class="card--minor-info">\n      <h3 class="card--position">{{ position }}</h3>\n      <h3 class="card--bats">{{ bats }}</h3>\n    </div>\n\n    <div class="card--bio-info">\n      <h4>Bio</h4>\n      <p>{{ story }}</p>\n    </div>\n  </div>\n\n  <div class="card--number">\n    <h3>{{ number }}</h3>\n  </div>\n\n  <div class="card-stats">\n    <table>\n      <thead>\n        <tr>\n          <th>G</th>\n          <th>AB</th>\n          <th>H</th>\n          <th>2B</th>\n          <th>3B</th>\n          <th>HR</th>\n          <th>RBI</th>\n          <th>AVG</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>{{ G }}</td>\n          <td>{{ AB }}</td>\n          <td>{{ H }}</td>\n          <td>{{ B2 }}</td>\n          <td>{{ B3 }}</td>\n          <td>{{ HR }}</td>\n          <td>{{ RBI }}</td>\n          <td>{{ AVG | fixed 3 }}</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>\n';
-},{}],"/Users/bill/sites/card-creator/src/js/main.js":[function(require,module,exports){
+},{}],"/Users/kyle/Development/card-creator/src/js/main.js":[function(require,module,exports){
 var Vue = require('vue');
 var _ = require('lodash');
 
@@ -23503,4 +23533,4 @@ new Vue({
     }
   }
 });
-},{"../data/nick-names.json":"/Users/bill/sites/card-creator/src/data/nick-names.json","../data/photos.json":"/Users/bill/sites/card-creator/src/data/photos.json","../data/positions.json":"/Users/bill/sites/card-creator/src/data/positions.json","../data/stats.json":"/Users/bill/sites/card-creator/src/data/stats.json","../data/stories.json":"/Users/bill/sites/card-creator/src/data/stories.json","../data/teams.json":"/Users/bill/sites/card-creator/src/data/teams.json","./app.html":"/Users/bill/sites/card-creator/src/js/app.html","./components/card/index.js":"/Users/bill/sites/card-creator/src/js/components/card/index.js","lodash":"/Users/bill/sites/card-creator/node_modules/lodash/index.js","vue":"/Users/bill/sites/card-creator/node_modules/vue/src/vue.js"}]},{},["/Users/bill/sites/card-creator/src/js/main.js"]);
+},{"../data/nick-names.json":"/Users/kyle/Development/card-creator/src/data/nick-names.json","../data/photos.json":"/Users/kyle/Development/card-creator/src/data/photos.json","../data/positions.json":"/Users/kyle/Development/card-creator/src/data/positions.json","../data/stats.json":"/Users/kyle/Development/card-creator/src/data/stats.json","../data/stories.json":"/Users/kyle/Development/card-creator/src/data/stories.json","../data/teams.json":"/Users/kyle/Development/card-creator/src/data/teams.json","./app.html":"/Users/kyle/Development/card-creator/src/js/app.html","./components/card/index.js":"/Users/kyle/Development/card-creator/src/js/components/card/index.js","lodash":"/Users/kyle/Development/card-creator/node_modules/lodash/index.js","vue":"/Users/kyle/Development/card-creator/node_modules/vue/src/vue.js"}]},{},["/Users/kyle/Development/card-creator/src/js/main.js"]);
