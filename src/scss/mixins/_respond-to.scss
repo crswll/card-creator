@@ -1,5 +1,0 @@
-@mixin respond-to ($media-query) {
-  @media #{$media-query} {
-    @content;
-  }
-}

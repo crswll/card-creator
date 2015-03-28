@@ -1,0 +1,15 @@
+.site-header {
+  margin: 4em 0;
+  text-align: center;
+  h1 {
+    color: darken($hot-pink, 25%);
+    font-size: 40px;
+    margin: 0;
+  }
+
+  h2 {
+    color: darken($hot-pink, 15%);
+    font-size: 1em;
+    font-weight: 300;
+  }
+}

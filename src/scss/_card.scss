@@ -1,0 +1,127 @@
+.card {
+  background-color: $light-tan;
+  border: 10px solid $hot-yellow;
+  box-shadow: 0 0 0 7px $light-tan, 12px 12px 0 4px darken($hot-pink, 10%);
+  margin: 0 auto 3em;
+  max-width: em(1000);
+  position: relative;
+
+  &:after {
+    @include position(absolute, 0 null 0 0);
+    background-image: url("../src/images/brett-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    display: block;
+    width: 45%;
+    z-index: 0;
+  }
+}
+
+.card-info {
+  padding: 2em 2em 2em 50%;
+  position: relative;
+  z-index: 1;
+
+  h1 {
+    color: $hot-pink;
+    margin: 0;
+  }
+
+  h2 {
+    color: $sweet-blue;
+    font-size: 20px;
+  }
+}
+
+.card--minor-info {
+  @include clearfix;
+  border-top: 3px solid darken($light-tan, 5%);
+  margin-top: 1em;
+  padding-top: 1em;
+
+  h3 {
+    color: $sweet-blue;
+    float: left;
+    font-size: em(20);
+    width: 50%;
+
+    &:before {
+      color: darken($light-tan, 40%);
+      display: block;
+      font-size: 13px;
+      letter-spacing: 2px;
+      margin-bottom: 0.5em;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.card--bio-info {
+  h4 {
+    color: darken($light-tan, 40%);
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: darken($light-tan, 60%);
+  }
+}
+
+.card--number {
+  @include position(absolute, null null -22px -22px);
+  @include size(5rem);
+  display: inline-block;
+  z-index: 1;
+  background-color: $mean-magenta;
+  border-radius: 50%;
+  text-align: center;
+  font-family: $heading-font-family;
+  font-size: 36px;
+  color: $light-tan;
+
+  h3 {
+    line-height: 5rem;
+    text-shadow: 3px 3px 0 darken($mean-magenta, 10%);
+  }
+}
+
+.card--bats {
+  &:before {
+    content: "Bats";
+  }
+}
+
+.card--position {
+  &:before {
+    content: "Position";
+  }
+}
+
+.card-stats {
+  background-color: $cool-green;
+  border: 3px solid darken($cool-green, 10%);
+  color: $light-tan;
+  margin: 2em 0 2em 35%;
+  position: relative;
+  right: -10px;
+  width: 65%;
+  padding: 0 1em;
+  z-index: 1;
+
+  table {
+    margin: 0;
+  }
+
+  th {
+    border-bottom: 2px solid darken($cool-green, 10%);
+  }
+
+  td {
+    border: none;
+  }
+}
