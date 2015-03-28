@@ -13,6 +13,11 @@ new Vue({
     photos: require('../data/photos.json'),
     bats: ['Left', 'Right', 'Switch']
   },
+  methods: {
+    reload: function () {
+      location.reload();
+    }
+  },
   components: {
     card: require('./components/card/index.js')
   },
