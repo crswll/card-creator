@@ -19614,13 +19614,8 @@ function traverse (obj) {
 }
 
 module.exports = Watcher
-<<<<<<< HEAD
-},{"./batcher":"/Users/bill/sites/card-creator/node_modules/vue/src/batcher.js","./config":"/Users/bill/sites/card-creator/node_modules/vue/src/config.js","./observer":"/Users/bill/sites/card-creator/node_modules/vue/src/observer/index.js","./parsers/expression":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/expression.js","./util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/src/data/nick-names.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=[
-=======
 },{"./batcher":"/Users/kyle/Development/card-creator/node_modules/vue/src/batcher.js","./config":"/Users/kyle/Development/card-creator/node_modules/vue/src/config.js","./observer":"/Users/kyle/Development/card-creator/node_modules/vue/src/observer/index.js","./parsers/expression":"/Users/kyle/Development/card-creator/node_modules/vue/src/parsers/expression.js","./util":"/Users/kyle/Development/card-creator/node_modules/vue/src/util/index.js"}],"/Users/kyle/Development/card-creator/src/data/nick-names.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
->>>>>>> Refine styles
+module.exports=module.exports=module.exports=[
   "(Vedie)",
   "3-Dog",
   "A J",
@@ -23202,13 +23197,8 @@ module.exports=module.exports=module.exports=module.exports=module.exports=modul
   "Zorro",
   "Zurdo"
 ]
-<<<<<<< HEAD
-},{}],"/Users/bill/sites/card-creator/src/data/photos.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=[
-=======
 },{}],"/Users/kyle/Development/card-creator/src/data/photos.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
->>>>>>> Refine styles
+module.exports=module.exports=module.exports=[
   "6a00d8341c9a9953ef013481193d2e970c.png",
   "61sy3MCuZAL._SL1048_.png",
   "81-Donruss-Frank-White.png",
@@ -23250,13 +23240,8 @@ module.exports=module.exports=module.exports=module.exports=module.exports=modul
   "vintage-martin.png",
   "vintage-yount2.png"
 ]
-<<<<<<< HEAD
-},{}],"/Users/bill/sites/card-creator/src/data/positions.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=[
-=======
 },{}],"/Users/kyle/Development/card-creator/src/data/positions.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
->>>>>>> Refine styles
+module.exports=module.exports=module.exports=[
   "Pitcher",
   "Catcher",
   "1st Baseman",
@@ -23267,13 +23252,8 @@ module.exports=module.exports=module.exports=module.exports=module.exports=modul
   "Center Field",
   "Right Field"
 ]
-<<<<<<< HEAD
-},{}],"/Users/bill/sites/card-creator/src/data/stats.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=[
-=======
 },{}],"/Users/kyle/Development/card-creator/src/data/stats.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
->>>>>>> Refine styles
+module.exports=module.exports=module.exports=[
   [18, 50, 7, 25, 8, 2, 0, 14, 5, 2, 1, 0, 0.5, 0.552, 0.74, 1.292],
   [18, 56, 17, 24, 5, 2, 2, 14, 3, 8, 3, 0, 0.429, 0.458, 0.696, 1.154],
   [24, 56, 13, 24, 7, 0, 4, 18, 11, 8, 1, 0, 0.429, 0.522, 0.768, 1.29],
@@ -23323,13 +23303,8 @@ module.exports=module.exports=module.exports=module.exports=module.exports=modul
   [15, 39, 5, 6, 1, 0, 0, 1, 7, 6, 1, 0, 0.154, 0.283, 0.179, 0.462],
   [17, 44, 5, 3, 1, 0, 1, 2, 6, 14, 0, 0, 0.068, 0.192, 0.159, 0.351]
 ]
-<<<<<<< HEAD
-},{}],"/Users/bill/sites/card-creator/src/data/stories.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=[
-=======
 },{}],"/Users/kyle/Development/card-creator/src/data/stories.json":[function(require,module,exports){
-module.exports=[
->>>>>>> Refine styles
+module.exports=module.exports=module.exports=[
   "NAME missed a game when his protective cup slipped and pinched a testicle.",
   "POSITION NAME started a new workout regimen at home in Crockett, Texas, back in the mid-1980s. One drill included backwards running. He promptly stepped in a gopher hole and hurt his back.",
   "POSITION NAME missed time with the Orioles in 2002 because he scorched his face in a tanning bed and was ordered by doctors to avoid direct sunlight. Standing in the sun from February through September apparently didn't give him the glow he sought.",
@@ -23355,13 +23330,8 @@ module.exports=[
   "TEAM outfielder NAME fell out of bed and crashed into a glass table while having a nightmare that he was covered by spiders. To which even the most sympathetic manager would say, \"Yeah, sure you did.\"",
   "In 2011, NAME strained his hamstring while stretching to avoid, you know, straining his hamstring."
 ]
-<<<<<<< HEAD
-},{}],"/Users/bill/sites/card-creator/src/data/teams.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=[
-=======
 },{}],"/Users/kyle/Development/card-creator/src/data/teams.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
->>>>>>> Refine styles
+module.exports=module.exports=module.exports=[
   "Arizona Diamondbacks",
   "Atlanta Braves",
   "Baltimore Orioles",
@@ -23533,4 +23503,5 @@ new Vue({
     }
   }
 });
+
 },{"../data/nick-names.json":"/Users/kyle/Development/card-creator/src/data/nick-names.json","../data/photos.json":"/Users/kyle/Development/card-creator/src/data/photos.json","../data/positions.json":"/Users/kyle/Development/card-creator/src/data/positions.json","../data/stats.json":"/Users/kyle/Development/card-creator/src/data/stats.json","../data/stories.json":"/Users/kyle/Development/card-creator/src/data/stories.json","../data/teams.json":"/Users/kyle/Development/card-creator/src/data/teams.json","./app.html":"/Users/kyle/Development/card-creator/src/js/app.html","./components/card/index.js":"/Users/kyle/Development/card-creator/src/js/components/card/index.js","lodash":"/Users/kyle/Development/card-creator/node_modules/lodash/index.js","vue":"/Users/kyle/Development/card-creator/node_modules/vue/src/vue.js"}]},{},["/Users/kyle/Development/card-creator/src/js/main.js"]);
