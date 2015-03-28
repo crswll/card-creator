@@ -23,7 +23,7 @@ new Vue({
   },
   filters: {
     fixed: function (n, d) {
-      return n.toFixed(d);
+      return n.toFixed(d).slice(1);
     },
     round: function (n) {
       return Math.round(n);

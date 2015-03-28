@@ -19615,7 +19615,7 @@ function traverse (obj) {
 
 module.exports = Watcher
 },{"./batcher":"/Users/bill/sites/card-creator/node_modules/vue/src/batcher.js","./config":"/Users/bill/sites/card-creator/node_modules/vue/src/config.js","./observer":"/Users/bill/sites/card-creator/node_modules/vue/src/observer/index.js","./parsers/expression":"/Users/bill/sites/card-creator/node_modules/vue/src/parsers/expression.js","./util":"/Users/bill/sites/card-creator/node_modules/vue/src/util/index.js"}],"/Users/bill/sites/card-creator/src/data/nick-names.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=[
+module.exports=module.exports=module.exports=module.exports=module.exports=[
   "(Vedie)",
   "3-Dog",
   "A J",
@@ -23198,7 +23198,7 @@ module.exports=module.exports=module.exports=[
   "Zurdo"
 ]
 },{}],"/Users/bill/sites/card-creator/src/data/photos.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=[
+module.exports=module.exports=module.exports=module.exports=module.exports=[
   "6a00d8341c9a9953ef013481193d2e970c.png",
   "61sy3MCuZAL._SL1048_.png",
   "81-Donruss-Frank-White.png",
@@ -23241,7 +23241,7 @@ module.exports=module.exports=module.exports=[
   "vintage-yount2.png"
 ]
 },{}],"/Users/bill/sites/card-creator/src/data/positions.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=[
+module.exports=module.exports=module.exports=module.exports=module.exports=[
   "Pitcher",
   "Catcher",
   "1st Baseman",
@@ -23253,7 +23253,7 @@ module.exports=module.exports=module.exports=[
   "Right Field"
 ]
 },{}],"/Users/bill/sites/card-creator/src/data/stats.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=[
+module.exports=module.exports=module.exports=module.exports=module.exports=[
   [18, 50, 7, 25, 8, 2, 0, 14, 5, 2, 1, 0, 0.5, 0.552, 0.74, 1.292],
   [18, 56, 17, 24, 5, 2, 2, 14, 3, 8, 3, 0, 0.429, 0.458, 0.696, 1.154],
   [24, 56, 13, 24, 7, 0, 4, 18, 11, 8, 1, 0, 0.429, 0.522, 0.768, 1.29],
@@ -23304,7 +23304,7 @@ module.exports=module.exports=module.exports=[
   [17, 44, 5, 3, 1, 0, 1, 2, 6, 14, 0, 0, 0.068, 0.192, 0.159, 0.351]
 ]
 },{}],"/Users/bill/sites/card-creator/src/data/stories.json":[function(require,module,exports){
-module.exports=[
+module.exports=module.exports=module.exports=[
   "NAME missed a game when his protective cup slipped and pinched a testicle.",
   "POSITION NAME started a new workout regimen at home in Crockett, Texas, back in the mid-1980s. One drill included backwards running. He promptly stepped in a gopher hole and hurt his back.",
   "POSITION NAME missed time with the Orioles in 2002 because he scorched his face in a tanning bed and was ordered by doctors to avoid direct sunlight. Standing in the sun from February through September apparently didn't give him the glow he sought.",
@@ -23331,7 +23331,7 @@ module.exports=[
   "In 2011, NAME strained his hamstring while stretching to avoid, you know, straining his hamstring."
 ]
 },{}],"/Users/bill/sites/card-creator/src/data/teams.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=[
+module.exports=module.exports=module.exports=module.exports=module.exports=[
   "Arizona Diamondbacks",
   "Atlanta Braves",
   "Baltimore Orioles",
@@ -23472,7 +23472,7 @@ module.exports = function(n, t) {
 module.exports = '<div class="card">\n  <div class="card--image" v-style="background-image: \'url(\' + photo + \')\'"></div>\n  <div class="card-info">\n    <h1 class="card--nickname">{{ nickname }}</h1>\n    <h2 class="card--team">{{ team }}</h2>\n\n    <div class="card--minor-info">\n      <h3 class="card--position">{{ position }}</h3>\n      <h3 class="card--bats">{{ bats }}</h3>\n    </div>\n\n    <div class="card--bio-info">\n      <h4>Bio</h4>\n      <p>{{ story }}</p>\n    </div>\n  </div>\n\n  <div class="card--number">\n    <h3>{{ number }}</h3>\n  </div>\n\n  <div class="card-stats">\n    <table>\n      <thead>\n        <tr>\n          <th>G</th>\n          <th>AB</th>\n          <th>H</th>\n          <th>2B</th>\n          <th>3B</th>\n          <th>HR</th>\n          <th>RBI</th>\n          <th>AVG</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>{{ G }}</td>\n          <td>{{ AB }}</td>\n          <td>{{ H }}</td>\n          <td>{{ B2 }}</td>\n          <td>{{ B3 }}</td>\n          <td>{{ HR }}</td>\n          <td>{{ RBI }}</td>\n          <td>{{ AVG | fixed 3 }}</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>\n';
 },{}],"/Users/bill/sites/card-creator/src/js/main.js":[function(require,module,exports){
 var Vue = require('vue');
-var _ = require('lodash'); 
+var _ = require('lodash');
 
 new Vue({
   el: '#app',
@@ -23496,7 +23496,7 @@ new Vue({
   },
   filters: {
     fixed: function (n, d) {
-      return n.toFixed(d);
+      return n.toFixed(d).slice(1);
     },
     round: function (n) {
       return Math.round(n);
