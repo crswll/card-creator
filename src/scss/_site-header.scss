@@ -1,6 +1,7 @@
 .site-header {
   margin: 4em 0;
   text-align: center;
+
   h1 {
     color: darken($hot-pink, 25%);
     font-size: 40px;
@@ -11,5 +12,17 @@
     color: darken($hot-pink, 15%);
     font-size: 1em;
     font-weight: 300;
+  }
+
+  a {
+    color: darken($hot-pink, 20%);
+
+    &:hover {
+      color: darken($hot-pink, 30%);
+    }
+  }
+
+  button {
+    margin-top: 2em;
   }
 }

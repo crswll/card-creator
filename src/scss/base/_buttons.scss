@@ -1,16 +1,15 @@
 #{$all-button-inputs},
 button {
-  @include appearance(none);
   -webkit-font-smoothing: antialiased;
-  background-color: $action-color;
+  @include appearance(none);
+  background: none;
   border-radius: $base-border-radius;
-  border: none;
+  border: 5px solid darken($hot-pink, 10%);
   color: #fff;
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
   font-size: $base-font-size;
-  font-weight: 600;
   line-height: 1;
   padding: 0.75em 1em;
   text-decoration: none;
@@ -20,7 +19,7 @@ button {
 
   &:hover,
   &:focus {
-    background-color: darken($action-color, 15%);
+    background-color: darken($hot-pink, 15%);
     color: #fff;
   }
 

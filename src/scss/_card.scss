@@ -14,7 +14,7 @@
   background-size: cover;
   content: "";
   display: block;
-  width: 45%;
+  width: 48%;
   z-index: 0;
 }
 
@@ -73,10 +73,10 @@
 
 .card--number {
   @include position(absolute, null null -22px -22px);
-  @include size(5rem);
+  @include size(6rem);
   background-color: $mean-magenta;
   border-radius: 50%;
-  border: 3px solid darken($mean-magenta, 10%);
+  border: 5px solid darken($mean-magenta, 10%);
   color: $light-tan;
   display: inline-block;
   font-family: $heading-font-family;
@@ -85,7 +85,7 @@
   z-index: 1;
 
   h3 {
-    line-height: 5rem;
+    line-height: 6rem;
     text-shadow: 3px 3px 0 darken($mean-magenta, 10%);
   }
 }
@@ -104,7 +104,7 @@
 
 .card-stats {
   background-color: $cool-green;
-  border: 3px solid darken($cool-green, 10%);
+  border: 5px solid darken($cool-green, 10%);
   color: $light-tan;
   margin: 2em 0 2em 35%;
   position: relative;
