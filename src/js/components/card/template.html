@@ -1,0 +1,40 @@
+<div class="card">
+
+  <img src="http://nicenicejpg.com/400x500">
+
+  <div class="card-info">
+    <h1 class="card--nickname">{{ nickname }}</h1>
+    <h2 class="card--team">{{ team }}</h2>
+    <h3 class="card--position">{{ position }}</h3>
+    <h4 class="card--bats">{{ bats }}</h4>
+  </div>
+  <table class="card-stats">
+    <thead>
+      <tr>
+        <th>G</th>
+        <th>AB</th>
+        <th>H</th>
+        <th>2B</th>
+        <th>3B</th>
+        <th>HR</th>
+        <th>RBI</th>
+        <th>AVG</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{ G }}</td>
+        <td>{{ AB }}</td>
+        <td>{{ H }}</td>
+        <td>{{ B2 }}</td>
+        <td>{{ B3 }}</td>
+        <td>{{ HR }}</td>
+        <td>{{ RBI }}</td>
+        <td>{{ AVG | fixed 3 }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+

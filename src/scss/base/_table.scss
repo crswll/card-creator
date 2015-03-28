@@ -1,0 +1,19 @@
+table {
+
+  caption {
+    font-weight: bold;
+  }
+
+  td,
+  th {
+    padding: 10px;
+    vertical-align: top;
+  }
+
+  tbody {
+    tr:nth-child(odd) {
+      background-color: #eee;
+    }
+  }
+
+}

@@ -1,0 +1,34 @@
+.blockquote {
+  border: 5px solid #ccc;
+  border-width: 0 0 0 5px;
+  padding-left: $base--spacing;
+
+  &--right {
+    border-color: #444;
+  }
+
+  &--left {
+    border-color: #999;
+  }
+
+  &--center {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &--full {
+    border-color: purple;
+  }
+
+  &--reversed {
+    border-width: 0 5px 0 0;
+    padding-right: $base--spacing;
+    padding-left: 0;
+    text-align: right;
+  }
+
+  footer {
+    font-style: normal;
+  }
+
+}

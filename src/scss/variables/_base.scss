@@ -1,0 +1,9 @@
+// The base font size, in pixels...
+$base--font-size: 1em;
+$base--line-height: 1.5;
+$base--spacing: $base--line-height * 1em;
+
+$base--border: 1px solid $color--light-gray;
+$base--border-color: $color--light-gray;
+$base--border-radius: 2px;
+$base--box-shadow: 1px 1px 1px $color--black;
