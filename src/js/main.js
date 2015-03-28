@@ -1,5 +1,5 @@
 var Vue = require('vue');
-var _ = require('lodash'); 
+var _ = require('lodash');
 
 new Vue({
   el: '#app',
